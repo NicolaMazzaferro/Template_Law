@@ -1,0 +1,208 @@
+:root{
+    --brown: #ceb290;
+    --darkBlue: #060644;
+    --lightBrown: #f0f0ea;
+    --lightBlue: #222344;
+    --darkBrown: #CDAD7D;
+    --whiteBrown: #EEEAD6;
+    --white: #F4F1EC;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: var(--white);
+}
+
+.darkBrown{
+    color: var(--darkBrown);
+}
+
+.darkBlue{
+    color: var(--darkBlue);
+}
+
+.lightBlue{
+    color: var(--lightBlue);
+}
+
+.brown{
+    color: var(--brown);
+}
+
+.ff-title{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navBg{
+    background-color: var(--brown);
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2!important;
+}
+
+.nav-link{
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: var(--lightBrown);
+}
+
+.bgHeader{
+    background-image: linear-gradient(rgba(34, 35, 68, 0.9), rgba(34, 35, 68, 0.9)) ,url(./media/header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    height: 30px;
+}
+
+.textLogo{
+    width: 130px;
+}
+
+.layoutHeader{
+    padding: 130px 100px 0px 100px;
+}
+
+.layoutPractice{
+    padding: 50px 0px 0px 100px;
+}
+
+.layoutService{
+    padding: 200px 0px 200px 100px;
+}
+
+
+.title{
+    font-size: 90px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:920px){
+    .layoutHeader{
+        padding: 80px 0px 0px 30px;
+    }
+
+    .title{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .layoutPractice{
+        padding: 50px 50px 50px 50px;
+    }
+
+    .practiceDescription{
+        padding: 10px!important;
+    }
+
+    .titleBox{
+        padding: 30px 10px 30px 10px!important;
+    }
+
+    .layoutService{
+        padding: 100px 30px 100px 30px;
+    }
+
+    .listService{
+        text-align: end;
+    }
+}
+
+.buttonAbout{
+    background-color: var(--darkBrown);
+    color: var(--darkBlue);
+    border: none;
+    width: 250px;
+    height: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.imgWoman{
+    padding: 70px 0 70px 0;
+}
+
+.bgBox1{
+    background-color: #E8D1AE;
+}
+
+.bgBox2{
+    background-color: #DBBF94;
+}
+
+.bgBox3{
+    background-color: #CDAD7D;
+}
+
+.titleBox{
+    padding: 100px 100px 0 100px;
+}
+
+.practiceDescription{
+    padding: 100px;
+    font-size: 20px;
+}
+
+.cardFeed{
+    border:2px solid var(--darkBrown);
+}
+
+.bgFeedback{
+    background-image: linear-gradient(rgba(34, 35, 68, 0.9), rgba(34, 35, 68, 0.9)) ,url(./media/smartworks.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.textFeed{
+    color: var(--white);
+}
+
+.textUser{
+    font-style: oblique;
+}
+
+.titleFeed{
+    padding-top: 150px;
+}
+
+
+/* About Us */
+
+.profile{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border:5px solid var(--darkBrown);
+    padding: 10px;
+}
+
+/* Practice */
+
+.card{
+    border-color: var(--darkBrown);
+    margin-bottom: 30px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: var(--darkBrown);
+}
+
+.layoutPracticePage{
+    padding: 100px;
+}
+
+.layoutContactPage{
+    padding-top: 100px;
+}
